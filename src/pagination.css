@@ -1,0 +1,29 @@
+.pagination {
+  position: fixed;
+  right: 50px;
+  top: 40.5vh;
+  z-index: 5;
+}
+
+.active {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  border: 2px solid black;
+  background-color: greenyellow;
+}
+.active:hover {
+  cursor: pointer;
+}
+
+.non-active {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  border: 2px solid black;
+  background-color: rgb(255, 33, 85);
+}
+
+.non-active:hover {
+  cursor: pointer;
+}
